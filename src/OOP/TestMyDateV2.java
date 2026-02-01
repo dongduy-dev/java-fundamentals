@@ -9,5 +9,6 @@ public class TestMyDateV2{
         System.out.println(md.getDay());
         System.out.println(md.getMonth());
         System.out.println(md.getYear());
+        System.out.println(md);
     }
 }
