@@ -16,6 +16,5 @@ public class TestCoffeeShopInvoice {
         System.out.println(invoice2.calculateDiscount(20));
 
         System.out.println("Check Out: " + invoice2.checkOutPrice(20));
-
     }
 }
