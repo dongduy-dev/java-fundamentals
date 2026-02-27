@@ -1,0 +1,9 @@
+1. The Template Method Pattern
+Think of this as a "Recipe with Optional Steps." In an abstract class, you define a fixed sequence of events (the template),
+but you leave the specific details of some steps to the subclasses.
+* How it Works:
+    - The Template: You create a final method in the abstract class. Being final means subclasses cannot change
+    the order of the steps.
+    - The Steps: The template method calls other methods. Some of these are abstract (required for children to fill in),
+    and some are hook methods (optional regular methods).
+* Real-World Example: Data Exporter

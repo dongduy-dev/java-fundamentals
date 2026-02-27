@@ -1,0 +1,7 @@
+2. Partial Implementation
+This happens when an Abstract Class sits in the middle between an Interface and a Concrete Class.
+The abstract class implements some of the interface's methods but leaves the rest for its children.
+*How it Works:
+    - The Interface: Defines a long list of required behaviors.
+    - The Abstract Class: Implements the "boring" or "common" behaviors that every child will likely use.
+    - The Concrete Class: Implements only the specific, unique behaviors.
