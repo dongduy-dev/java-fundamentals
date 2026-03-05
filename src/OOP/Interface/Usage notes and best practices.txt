@@ -1,0 +1,14 @@
+Usage Notes and Best Practices
+
+"Program to an Interface, not an Implementation": Always use the interface type as your variable reference,
+method return type, or parameter type whenever possible. This makes unit testing easier (via mocking) and keeps
+your architecture modular.
+
+Interface Segregation Principle (ISP): Do not create massive, "fat" interfaces. Break them down into smaller,
+highly cohesive, role-specific interfaces. A class should not be forced to implement methods it doesn't need.
+
+Use Default Methods Sparingly: Default methods were introduced primarily for backward compatibility.
+Do not use them as a substitute for abstract classes or to shove business logic into interfaces.
+
+Functional Interfaces for Callbacks: Use the @FunctionalInterface annotation when designing an interface with
+one abstract method to ensure compiler-level enforcement, making your API ready for lambda expressions.
