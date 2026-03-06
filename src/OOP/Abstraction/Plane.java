@@ -8,7 +8,6 @@ public class Plane extends Vehicle {
         this.fuelType = fuelType;
     }
 
-
     public String getFuelType() {
         return fuelType;
     }
